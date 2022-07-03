@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+  </head>
+  <style>
+    .font-exo {
+      font-family: 'Exo 2', sans-serif;
+    }
+    .font-lato {
+      font-family: 'Lato', sans-serif;
+    }
+  </style>
+  <body>
+    <div class="flex h-screen">
+      <div class="w-1/2 bg-black flex flex-col justify-center px-8">
+        <div class="max-w-[500px] flex flex-col mx-auto">
+          <h class="text-white text-4xl mb-3 font-exo leading-none ">
+            CHALLENGING THE STANDARD OF SPACE EXPLORATION
+          </h>
+          <p class="text-gray-400 mb-8 font-lato">
+            Millions of developers and companies build, ship, and maintain their
+            software on GitHub—the largest and most advanced development
+            platform in the world.
+          </p>
+          <div>
+            <a
+              href=""
+              class="bg-green-500 text-white px-8 py-4 rounded-full font-lato"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 " id="canvasContainer">
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
